@@ -1,0 +1,141 @@
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 1rem;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    max-width: 1000px;
+    margin-inline: auto;
+    padding: 0 150px 0 150px;
+}
+
+.logo {
+    display: block;
+    margin: 2rem auto;
+}
+
+nav {
+    background-color: #333333;
+}
+
+.menu {
+    padding: 2rem 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.menu a {
+    color: #a8a8a8;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #fff;
+}
+
+.personagem {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.personagem-I {
+    text-align: end;
+}
+
+.bloco-texto {
+    padding: 3rem;
+    background-color: #333333;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.bloco-textoI {
+    padding: 3rem;
+    background-color: #333333;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.titulo {
+    margin: 0 0 0.5rem 0;
+}
+
+.lancamentoI {
+    margin-bottom: 2rem;
+    margin-top: -1rem;
+    font-weight: 400;
+}
+
+.descricao {
+    font-size: 0.8rem;
+}
+
+.rodape {
+    margin-top: 3rem;
+    padding: 1rem 0;
+    background-color: #a9141a;
+    text-align: center;
+}
+
+.rodape a {
+    color: #fff;
+}
+
+.img {
+    background-color: #333333;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.imgI {
+    background-color: #333333;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+/* Media */
+
+@media (max-width: 992px) {
+    .bloco-texto {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .personagem {
+        flex-direction: column-reverse;
+        border-radius: 0rem;
+    }
+
+    .personagem-I {
+        flex-direction: column;
+        text-align: start;
+        border-radius: 0rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu {
+        font-size: 0.75rem;
+        justify-content: space-between;
+        gap: 1;
+    }
+}
