@@ -88,6 +88,10 @@ nav {
     font-size: 0.8rem;
 }
 
+.oculto {
+    color: #413e3e;
+}
+
 .rodape {
     margin-top: 3rem;
     padding: 1rem 0;
@@ -97,6 +101,10 @@ nav {
 
 .rodape a {
     color: #fff;
+}
+
+.mensagem {
+    color: #8b1113;
 }
 
 .img {
